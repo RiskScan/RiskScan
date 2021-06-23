@@ -10,10 +10,20 @@ body{
 .nav-item{
     background-color: #055353;
     border-radius: 1.5em;
+    display: flex;
 }
 .nav-link {
     font-size: larger;
 }
+
+.evaluar{
+    width: 24px;
+}
+
+.login{
+    width: 24px;
+}
+
 .image-container-hero{
     width: 100vw;
     height: 100vh;
