@@ -43,14 +43,7 @@ body{
     left: 0;
     z-index: 0;
 }
-.image-container-hero img{
-    /* width: inherit;
-    height: inherit;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 0; */
-}
+
 
 .inf{
     width: 50vw;
@@ -184,9 +177,6 @@ body{
 .download{
     display: flex;
     margin: auto;
-}
-
-.download-example{
 }
 
 .whatsapp{
