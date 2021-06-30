@@ -5,7 +5,7 @@ body{
 .navbar{
     height: 10vh;
     background-color: rgba(0, 0, 0, 0);
-    z-index: 1;
+    z-index: 10;
 }
 .nav-item{
     background-color: #055353;
@@ -14,6 +14,14 @@ body{
 }
 .nav-link {
     font-size: larger;
+}
+
+.navbar-brand{
+    margin-left: 3rem;
+}
+
+.navbar-brand img{
+    width: 400px;
 }
 
 .evaluar{
@@ -57,6 +65,8 @@ body{
 }
 
 .video-container{
+    width: 780px;
+    height: 480px;
     position: absolute;
     z-index: 2;
     right: calc(50vw - 720px - 5vw);
@@ -101,6 +111,7 @@ body{
 }
 
 .title-admin{
+    margin-bottom: 1rem;
     display: flex;
     justify-content: center;
 
@@ -110,7 +121,13 @@ body{
     align-self: center;
 }
 
+.title-admin img{
+    width: 64px;
+    height: 64px;
+}
+
 .title-eva{
+    margin-bottom: 1rem;
     display: flex;
     justify-content: center;
 }
@@ -124,8 +141,12 @@ body{
 }
 
 .app-paragraph{
-    font-size: 25px;
+    
     align-items: center;
+}
+
+.app-paragraph p {
+    font-size: 25px;
 }
 
 .approved{
@@ -188,3 +209,281 @@ body{
     margin: 5px;
 }
 
+/* Responsive */
+@media only screen 
+and (min-width: 300px)
+and (max-width: 430px){
+    .navbar{
+        z-index: 10;
+    }
+
+    .navbar-brand img{
+        width: 200px;
+        margin-left: 0 !important;
+    }
+
+    .navbar-brand{
+        margin-left: 0;
+    }
+    
+    .nav-link {
+        font-size: larger;
+    }
+    .video-container{
+        /* display: none; */
+        width: 320px;
+        height: 180px;
+        left: calc(50vw - 160px);
+        right: 0;
+        top: 10em;
+    }
+
+    .inf{
+        width: 100vw;
+        height: 10vh;
+        color: white;
+        padding: 8px;
+        background-color: #085454;
+        position: absolute;
+        z-index: 3;
+        left: 0;
+        top: 100vh;
+    }
+
+    .inf h2{
+        font-size: 14px;
+    }
+
+    .contact{
+        font-size: smaller;
+    }
+
+    /* Escalas */
+    .text-size{
+        font-size: smaller;
+    }
+
+    .example img{
+        width: 24px;
+    }
+
+    .image-table img{
+        width: 50px;
+    }
+
+    .escalas-title{
+        font-size: 12px;
+    }
+
+    /* Features */
+    .title-admin img{
+        width: 24px;
+        height: 24px;
+    }
+
+    .title-admin h2{
+        font-size: smaller;
+    }
+
+    .title-eva h2{
+        font-size: smaller;
+    }
+
+    .title-eva img{
+        width: 24px;
+        height: 24px;
+    }
+
+    .test{
+        font-size: smaller;
+    }
+
+    .app-paragraph p{
+        font-size: smaller;
+    }
+
+    .test p{
+        font-size: smaller;
+    }
+
+    .test ul{
+        padding-left: 1em;
+    }
+
+    .title-test{
+        margin-bottom: 0;
+    }
+
+    .test-bottom{
+        margin-top: 0;
+    }
+
+
+}
+
+@media only screen 
+and (min-width: 700px)
+and (max-width: 768px){
+    /* Navbar */
+    
+    .navbar-brand img{
+        width: 200px;
+        margin-left: 0 !important;
+    }
+
+    .video-container{
+        /* display: none; */
+        width: 640px;
+        height: 360px;
+        left: 0;
+        top: 5em;
+        margin-left: 64px;
+    }
+
+    /* Index */
+
+    .inf{
+        width: 100vw;
+        height: 10vh;
+        color: white;
+        padding: 8px;
+        background-color: #085454;
+        position: absolute;
+        z-index: 3;
+        left: 0;
+        top: 100vh;
+    }
+
+    .inf h2{
+        font-size: 20px;
+    }
+
+    /* Features */
+    .title-admin img{
+        width: 44px;
+        height: 44px;
+    }
+
+    .title-eva img{
+        width: 44px;
+        /* height: 44px; */
+    }
+
+    .title-admin h2{
+        font-size: medium;
+    }
+
+    .title-eva h2{
+        font-size: medium;
+    }
+
+    .test{
+        font-size: small;
+    }
+
+    .test p{
+        font-size: small;
+    }
+
+    .test ul{
+        padding-left: 7.5em;
+    }
+
+    .app-paragraph p{
+        font-size: small;
+    }
+
+    .title-test{
+        margin-bottom: 0;
+    }
+
+    .test-bottom{
+        margin-top: 0;
+    }
+
+    /* Escalas */
+    .text-size{
+        font-size: medium;
+    }
+
+    .example img{
+        width: 24px;
+    }
+
+    .image-table img{
+        width: 200px;
+    }
+
+    .escalas-title{
+        font-size: 12px;
+    }
+
+
+}
+
+@media only screen 
+and (min-width: 1000px) 
+and (max-width: 1024px){
+    .navbar-brand img{
+        width: 200px;
+        margin-left: 0 !important;
+    }
+
+
+
+    .video-container{
+        width: 426px;
+        height: 240px;
+        right: 0;
+        top: 14em;
+    }
+
+    .inf{
+        
+        left: 0;
+        top: 25em;
+    }
+
+    .inf h2{
+        font-size: medium;
+    }
+
+
+}
+
+@media screen and (min-width: 1026px) and (max-width: 1450px){
+    
+    .navbar-brand img{
+        width: 200px;
+        margin-left: 0 !important;
+    }
+
+    .nav-link {
+        font-size: medium;
+    }
+
+    .video-container{
+        /* display: none; */
+        width: 640px;
+        height: 360px;
+        right: 0;
+        top: 22vh;
+        /* top: 60px; */
+    }
+
+    .inf{
+        width: 50vw;
+        height: 10vh;
+        color: white;
+        padding: 8px;
+        background-color: #085454;
+        position: absolute;
+        z-index: 3;
+        left: 0;
+        top: 90vh;
+    }
+
+    .inf h2{
+        font-size: large;
+    }
+}

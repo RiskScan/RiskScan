@@ -5,54 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="shortcut icon" href="./public/logo.png">
     <link rel="stylesheet" href="./styles/index.css">
     <title>App</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light ">
         <div class="container-fluid">
-          <a class="navbar-brand ms-5" href="#">
-              <img src="./public/riskScan.png" alt="" width="400">
+          <a class="navbar-brand" href="index.html">
+              <img src="./public/riskScan.png" alt="">
           </a>
-          <div class="colla App-paragraphpse navbar-collapse me-5" id="navbarSupportedContent" style="justify-content: flex-end;">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse me-5" id="navbarSupportedContent" style="justify-content: flex-end;">
             <ul class="navbar-nav  mb-2 mb-lg-0">
-                <li class="nav-item mx-3 px-3 "> 
-                  <a class="nav-link active" aria-current="page" href="index.html" style="color: white;">Inicio</a>
-                </li>
-                <li class="nav-item mx-3 px-3" style="background-color: #D6A803;">
-                  <a class="nav-link active" aria-current="page" href="./features.html" style="color: white;">Características</a>
-                </li>
-                <li class="nav-item mx-3 px-3">
-                  <a class="nav-link active" aria-current="page" href="./escalas.html" style="color: white;">Escalas</a>
-                </li>
-                <li class="nav-item mx-3 px-3">
-                  <a class="nav-link active" aria-current="page" href="./contact.html" style="color: white;">Contacto</a>
-                </li>
-                <li class="nav-item mx-3 px-3">
-                    <img src="./public/login.svg" alt="evaluar" class="evaluar">
-                  <a class="nav-link active" aria-current="page" href="#" style="color: white;">Evaluar</a>
-                </li>
-                <li class="nav-item mx-3 px-3">
-                  <img src="./public/padlock.svg" alt="padlock" class="login">
-                  <a class="nav-link active" aria-current="page" href="#" style="color: white;">Login</a>
-                </li>
-              </ul>
+              <li class="nav-item mx-3 px-3 " > 
+                <a class="nav-link active" aria-current="page" href="index.html" style="color: white;">Inicio</a>
+              </li>
+              <li class="nav-item mx-3 px-3"  style="background-color: #D6A803;">
+                <a class="nav-link active" aria-current="page" href="./features.html" style="color: white;">Características</a>
+              </li>
+              <li class="nav-item mx-3 px-3">
+                <a class="nav-link active" aria-current="page" href="./escalas.html" style="color: white;">Escalas</a>
+              </li>
+              <li class="nav-item mx-3 px-3">
+                <a class="nav-link active" aria-current="page" href="./contact.html" style="color: white;">Contacto</a>
+              </li>
+              <li class="nav-item mx-3 px-3">
+                  <img src="./public/login.svg" alt="evaluar" class="evaluar">
+                <a class="nav-link active" aria-current="page" href="#" style="color: white;">Evaluar</a>
+              </li>
+              <li class="nav-item mx-3 px-3">
+                <img src="./public/padlock.svg" alt="padlock" class="login">
+                <a class="nav-link active" aria-current="page" href="#" style="color: white;">Login</a>
+              </li>
+            </ul>
           </div>
         </div>
     </nav>
     <div class="container-fluid" style="padding: 0 1em;">
         <div class="row title-test">
-            <div class="col-6 title-admin">
-                <img src="./public/módulo admin.png" alt="" width="64px" height="64px">
-                <h2 style="text-align: center;">Módulo de Administrador</h2>
-            </div>
-            <div class="col-6 title-eva">
-                <img src="./public/módulo eva.png" alt="" width="64px" >
-                <h2 style="text-align: center;">Modulo del Evaluado</h2>
-            </div>
-        </div>
-        <div class="row">
             <div class="col-6 test">
+                <div class="col-12 col-md-12 title-admin">
+                    <img src="./public/módulo admin.png" alt="">
+                    <h2 style="text-align: center;">Módulo de Administrador</h2>
+                </div>
                 <ul>
                     <li>
                         <p>Ingresa a través de un usuario y una contraseña</p>
@@ -69,6 +67,10 @@
                 </ul>
             </div>
             <div class="col-6 test">
+                <div class="col-12 title-eva">
+                    <img src="./public/módulo eva.png" alt="" width="64px" >
+                    <h2 style="text-align: center;">Modulo del Evaluado</h2>
+                </div>
                 <ul>
                     <li>
                         <p>Ingresa a través de un usuario y una contraseña</p>
@@ -83,19 +85,20 @@
             </div>
         </div>
         <div class="row test-bottom">
-            <div class="col-4 app-paragraph">
+            <div class="col-12 col-md-4 app-paragraph">
                 <img class="approved" src="./public/approved.svg" alt="" width="40px">
                 <p>Los resultados son inmediatos</p>
             </div>
-            <div class="col-4 app-paragraph">
+            <div class="col-12 col-md-4 app-paragraph">
                 <img class="approved" src="./public/approved.svg" alt="" width="40px">
                 <p>Los resultados se pueden visualizar y descargar desde la app web</p>
             </div>
-            <div class="col-4 app-paragraph">
+            <div class="col-12 col-md-4 app-paragraph">
                 <img class="approved" src="./public/approved.svg" alt="" width="40px">
                 <p>Las escalas tienen una guía de interpretación y recomendaciones para cada factor</p>
             </div>
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>
 </html>

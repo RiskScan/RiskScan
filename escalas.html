@@ -5,48 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="shortcut icon" href="./public/logo.png">
     <link rel="stylesheet" href="./styles/index.css">
     <title>Servicios</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light ">
-        <div class="container-fluid">
-          <a class="navbar-brand ms-5" href="#">
-              <img src="./public/riskScan.png" alt="" width="400">
-          </a>
-          <div class="collapse navbar-collapse me-5" id="navbarSupportedContent" style="justify-content: flex-end;">
-            <ul class="navbar-nav  mb-2 mb-lg-0">
-              <li class="nav-item mx-3 px-3 "> 
-                <a class="nav-link active" aria-current="page" href="index.html" style="color: white;">Inicio</a>
-              </li>
-              <li class="nav-item mx-3 px-3" >
-                <a class="nav-link active" aria-current="page" href="./features.html" style="color: white;">Características</a>
-              </li>
-              <li class="nav-item mx-3 px-3" style="background-color: #D6A803;">
-                <a class="nav-link active" aria-current="page" href="./escalas.html" style="color: white;">Escalas</a>
-              </li>
-              <li class="nav-item mx-3 px-3">
-                <a class="nav-link active" aria-current="page" href="./contact.html" style="color: white;">Contacto</a>
-              </li>
-              <li class="nav-item mx-3 px-3">
-                  <img src="./public/login.svg" alt="evaluar" class="evaluar">
-                <a class="nav-link active" aria-current="page" href="#" style="color: white;">Evaluar</a>
-              </li>
-              <li class="nav-item mx-3 px-3">
-                <img src="./public/padlock.svg" alt="padlock" class="login">
-                <a class="nav-link active" aria-current="page" href="#" style="color: white;">Login</a>
-              </li>
-            </ul>
-          </div>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+            <img src="./public/riskScan.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse me-5" id="navbarSupportedContent" style="justify-content: flex-end;">
+          <ul class="navbar-nav  mb-2 mb-lg-0">
+            <li class="nav-item mx-3 px-3 "> 
+              <a class="nav-link active" aria-current="page" href="index.html" style="color: white;">Inicio</a>
+            </li>
+            <li class="nav-item mx-3 px-3" >
+              <a class="nav-link active" aria-current="page" href="./features.html" style="color: white;">Características</a>
+            </li>
+            <li class="nav-item mx-3 px-3"  style="background-color: #D6A803;">
+              <a class="nav-link active" aria-current="page" href="./escalas.html" style="color: white;">Escalas</a>
+            </li>
+            <li class="nav-item mx-3 px-3">
+              <a class="nav-link active" aria-current="page" href="./contact.html" style="color: white;">Contacto</a>
+            </li>
+            <li class="nav-item mx-3 px-3">
+                <img src="./public/login.svg" alt="evaluar" class="evaluar">
+              <a class="nav-link active" aria-current="page" href="#" style="color: white;">Evaluar</a>
+            </li>
+            <li class="nav-item mx-3 px-3">
+              <img src="./public/padlock.svg" alt="padlock" class="login">
+              <a class="nav-link active" aria-current="page" href="#" style="color: white;">Login</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
-    <div class="text-size">
+    <div class="text-size escalas">
     <div class="container-fluid">
         <div class="row header">
-            <div class="col-6">
+            <div class="col-12 col-md-6">
                 <h2>Evaluación de Factores Tóxicos/colaborativos</h2>
             </div>
-            <div class="col-6 example">
+            <div class="col-12 col-md-6 example">
               <div class="download">
                 <img src="./public/download.svg" alt="download" width="40px">
                 <div class="download-example">Descargar ejemplo</div>
@@ -62,8 +66,8 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-4">
-              <img src="./public/empresasToxicas.png" alt="" width="300px">
+            <div class="col-4 image-table">
+              <img src="./public/empresasToxicas.png" alt="">
             </div>
             <div class="col-4">
               <p><strong>Objetivo</strong> Mide el grado en el que el centro de trabajo es percibido como hostil que favorece el conflicto o el trabajo colaborativo
@@ -107,10 +111,10 @@
     </div>
     <div class="container-fluid">
       <div class="row header">
-        <div class="col-6">
+        <div class="col-12 col-md-6">
           <h2>Evaluación de Agotamiento Laboral</h2>
         </div>
-        <div class="col-6 example">
+        <div class="col-12 col-md-6 example">
           <div class="download">
             <img src="./public/download.svg" alt="download" width="40px">
             <div class="download-example">Descargar ejemplo</div>
@@ -127,8 +131,8 @@
 
       </div>
       <div class="row">
-        <div class="col-4">
-          <img src="./public/Agotamiento Laboral.png" alt="" width="300px">
+        <div class="col-4 image-table">
+          <img src="./public/Agotamiento Laboral.png" alt="">
         </div>
         <div class="col-4">
           <p><strong>Objetivo</strong> Mide el grado de ansiedad general y cansansio relacionado con
@@ -171,10 +175,10 @@
     </div>
     <div class="container-fluid">
       <div class="row header">
-          <div class="col-6">
+          <div class="col-12 col-md-6">
               <h2>Escala de Trabajos Satisfactorios</h2>
           </div>
-          <div class="col-6 example">
+          <div class="col-12 col-md-6 example">
             <div class="download">
               <img src="./public/download.svg" alt="download" width="40px">
               <div class="download-example">Descargar ejemplo</div>
@@ -190,8 +194,8 @@
           </div>
       </div>
       <div class="row">
-          <div class="col-4">
-            <img src="./public/Trabajos satisfactorios.png" alt="" width="300px">
+          <div class="col-4 image-table">
+            <img src="./public/Trabajos satisfactorios.png" alt="">
           </div>
           <div class="col-4">
             <p><strong>Objetivo</strong> Mide el grado en que una persona se encuentra  a gusto 
@@ -233,10 +237,10 @@
     </div>
     <div class="container-fluid">
       <div class="row header">
-          <div class="col-6">
+          <div class="col-12 col-md-6">
               <h2>Inventario de Rotación Laboral</h2>
           </div>
-          <div class="col-6 example">
+          <div class="col-12 col-md-6 example">
             <div class="download">
               <img src="./public/download.svg" alt="download" width="40px">
               <div class="download-example">Descargar ejemplo</div>
@@ -252,8 +256,8 @@
           </div>
       </div>
       <div class="row">
-          <div class="col-4">
-            <img src="./public/rotación laboral.png" alt="" width="300px">
+          <div class="col-4 image-table">
+            <img src="./public/rotación laboral.png" alt="">
           </div>
           <div class="col-4">
             <p><strong>Objetivo</strong> Mide la probabilidad de riesgo de rotación o abandono de trababjo en los siguientes 20 días.
@@ -293,5 +297,6 @@
       </div>
     </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>
 </html>
