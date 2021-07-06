@@ -9,31 +9,30 @@
     <title>Login</title>
 </head>
 <body>
-    <div class="container-fluid" style="height: 100vh; ">
-        <div class="row justify-content-md-center ">
-            <div class="col-3 login">
+    <div class="container container-login" style="height: 100vh; ">
+        <div class="row justify-content-md-center row-input">
+            <div class="col-8 col-md-8 login-signup">
                 <div class="image-container">
                     <img class="image" src="./riskScan.png" alt="">
                 </div>
-                <p>¿Es su primera evaluación? Ingrese los datos que se solicitan</p>
-                <div class="row data">
-                    <div class="col-4 clave">Clave</div>
-                    <input class="col-7 input" type="text">
+                <div class="data-container">
+                    <div class="field-container">
+                        <input class="input" type="text" placeholder="Nombre Completo">
+                        <input class="input" type="text" placeholder="Correo Electrónico">
+                        <input class="input" type="text" placeholder="Edad">
+                        <input class="input" type="text" placeholder="Sexo">
+                    </div>
+                    <div class="container-pol">
+                        <input type="checkbox">
+                        <label for="">Estoy de acuerdo con los términos de
+                            servicio y políticas de privacidad
+                        </label>
+                    </div>
+                    <div class="container-btn">
+                        <button class="btn signup">Registrarse</button>
+                    </div>
                 </div>
-                <div class="row data">
-                    <div class="col-4 clave">Contraseña</div>
-                    <input class="col-7 input" type="text" >
-                </div>
-                <div class="container-btn">
-                    <button class="btn">Acceder</button>
-                </div>
-                <hr>
-                <p>Ya tengo un folio de evaluación</p>
-                <div class="data">
-                    <div class="clave">Folio</div>
-                    <input type="text" class="input">
-                    <button class="btn go" style="height: fit-content;">Ir</button>
-                </div>
+                
             </div>
         </div>
     </div>
